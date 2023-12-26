@@ -5,3 +5,5 @@ $ docker run --gpus all -it -v /home/cccr_rnd/manmeet/deepnwp:/apollo  -p 8891:8
 $ jupyter-notebook --ip 0.0.0.0 --port=8891 --no-browser --allow-root &
 
 $ ssh -N -f -L localhost:8891:localhost:8891 cccr_rnd@10.12.1.28
+
+Data: https://drive.google.com/drive/folders/1Zh2NW8pRcq_SfxAVtud0pQfiGi74brx7?usp=sharing
